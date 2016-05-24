@@ -5,6 +5,7 @@ const modules = [
   require('./avatar'),
   require('./company'),
   require('./post'),
+  require('./rootMutation'),
   require('./rootQuery'),
   require('./user'),
 ]
@@ -15,6 +16,7 @@ const typeDefs = modules
   .concat([`
     schema {
       query: RootQuery
+      mutation: RootMutation
     }
   `]);
 

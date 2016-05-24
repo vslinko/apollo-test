@@ -11,6 +11,7 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
+        include: [`${__dirname}/app`],
         loader: 'babel',
       },
     ],
