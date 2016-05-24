@@ -1,0 +1,9 @@
+{
+  "name": "apollo-test",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.13.4",
+    "graphql": "^0.6.0",
+    "graphql-tools": "^0.4.1"
+  }
+}
